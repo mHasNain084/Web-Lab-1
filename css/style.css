@@ -1,0 +1,84 @@
+/* home.html */
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 12px 0;
+    margin-bottom: 24px;
+    gap: 24px;
+}
+.navbar a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+.navbar a:hover {
+    background: #f4e2d8;
+    color: #8b4513;
+}
+
+/* hobbies.html */
+body.hobbies {
+    font-family: Arial;
+    background: #e6f7ff;
+    color: chocolate;
+    margin: 10px;
+}
+
+/* personalSkills.html */
+body.skills {
+    font-family: Arial;
+    background: #f0fff0;
+    color: rgb(145, 74, 88);
+    margin: 20px;
+}
+
+/* imageGallery.html */
+body.gallery {
+    font-family: Arial;
+    background: #fff8f0;
+    margin: 20px;
+}
+.gallery {
+    width: 100%;
+    overflow: hidden;
+}
+.gallery img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Example for floating text next to images */
+.float-text {
+    float: left;
+    width: 220px;
+    margin: 10px;
+}
+
+/* contactMe.html */
+body.contact {
+    font-family: Arial;
+    background: #fff0f5;
+    color: rgb(82, 57, 57);
+    margin: 20px;
+}
